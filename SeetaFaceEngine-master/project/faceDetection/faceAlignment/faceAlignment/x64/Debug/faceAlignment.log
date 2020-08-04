@@ -1,0 +1,23 @@
+﻿  sift.cpp
+  face_alignment.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\face_alignment.cpp(46): warning C4273: “seeta::FaceAlignment::FaceAlignment”: dll 链接不一致
+  c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\facealignment\include\face_alignment.h(49): note: 参见“{ctor}”的前一个定义
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\face_alignment.cpp(59): warning C4273: “seeta::FaceAlignment::PointDetectLandmarks”: dll 链接不一致
+  c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\facealignment\include\face_alignment.h(61): note: 参见“PointDetectLandmarks”的前一个定义
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\face_alignment.cpp(79): warning C4273: “seeta::FaceAlignment::~FaceAlignment”: dll 链接不一致
+  c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\facealignment\include\face_alignment.h(54): note: 参见“{dtor}”的前一个定义
+  cfan.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(109): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(166): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(167): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(214): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(247): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(290): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(323): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(394): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\cfan.cpp(395): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  正在生成代码...
+    正在创建库 C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Debug\faceAlignment.lib 和对象 C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Debug\faceAlignment.exp
+  faceAlignment.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Debug\faceAlignment.dll
+  faceAlignment.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Debug\faceAlignment.pdb (Full PDB)

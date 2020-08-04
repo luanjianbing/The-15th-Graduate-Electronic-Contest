@@ -1,0 +1,14 @@
+﻿  test_face_recognizer.cpp
+C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(44): warning C4010: 单行注释包含行继续符
+C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(46): warning C4010: 单行注释包含行继续符
+C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(47): warning C4010: 单行注释包含行继续符
+C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(53): warning C4010: 单行注释包含行继续符
+C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(70): warning C4010: 单行注释包含行继续符
+C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(71): warning C4010: 单行注释包含行继续符
+C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\FaceIdentification\include\face_identification.h(82): warning C4010: 单行注释包含行继续符
+    正在创建库 C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Release\Identification.lib 和对象 C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Release\Identification.exp
+  正在生成代码
+  All 204 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Identification.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Release\Identification.exe
+  Identification.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Release\Identification.pdb (Full PDB)

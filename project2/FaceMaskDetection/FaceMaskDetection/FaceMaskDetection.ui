@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FaceMaskDetectionClass</class>
+ <widget class="QWidget" name="FaceMaskDetectionClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1500</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FaceMaskDetection</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:#020d2c</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="1,9">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widgetTitle" native="true">
+     <layout class="QGridLayout" name="gridLayout_4" columnstretch="1,1,1,3,2,1">
+      <item row="0" column="1" rowspan="2">
+       <widget class="QLabel" name="labelName">
+        <property name="font">
+         <font>
+          <family>华文楷体</family>
+          <pointsize>11</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white</string>
+        </property>
+        <property name="text">
+         <string>口罩佩戴检测系统</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="3" rowspan="2">
+       <widget class="QLabel" name="labelTime">
+        <property name="styleSheet">
+         <string notr="true">color:gray</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::WinPanel</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="0" rowspan="2">
+       <widget class="QLabel" name="labelIcon">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>icon/titleIco.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QPushButton" name="buttonMenu">
+        <property name="styleSheet">
+         <string notr="true">color:gray</string>
+        </property>
+        <property name="text">
+         <string>菜单</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="widgetMain" native="true">
+     <layout class="QGridLayout" name="gridLayout_2" rowstretch="8,2" columnstretch="7,3">
+      <item row="0" column="1" rowspan="2">
+       <widget class="QWidget" name="WidgetDataAnalyse" native="true">
+        <layout class="QVBoxLayout" name="verticalLayout" stretch="3,2,2">
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="styleSheet">
+            <string notr="true">background:#162e6c;color:gray</string>
+           </property>
+           <property name="title">
+            <string>预警</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_5">
+            <item row="0" column="0">
+             <widget class="QListWidget" name="listWidgetLog"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_2">
+           <property name="styleSheet">
+            <string notr="true">background:#162e6c;color:gray</string>
+           </property>
+           <property name="title">
+            <string>未带口罩报警</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_10" columnstretch="4,2,4">
+            <item row="0" column="2">
+             <widget class="QLabel" name="labelUnknownTimeDis">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelUnknownTime">
+              <property name="text">
+               <string>时间：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="labelUnknownMask">
+              <property name="text">
+               <string>口罩：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="labelUnknownMaskDis">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" rowspan="2">
+             <widget class="QLabel" name="labelUnknownImage">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox_3">
+           <property name="styleSheet">
+            <string notr="true">background:#162e6c;color:gray</string>
+           </property>
+           <property name="title">
+            <string>统计</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_11">
+            <item row="0" column="0">
+             <widget class="QChartView" name="widgetChart" native="true"/>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QWidget" name="WidgetRecordDisplay" native="true">
+        <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,1,1">
+         <item>
+          <widget class="QWidget" name="wRecordDisplay_1" native="true">
+           <property name="styleSheet">
+            <string notr="true">background:#162e6c;color:gray</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_6" columnstretch="4,2,4">
+            <item row="0" column="2">
+             <widget class="QLabel" name="labelNameDis_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelName_1">
+              <property name="text">
+               <string>姓名：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="labelMask_1">
+              <property name="text">
+               <string>口罩：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="labelMaskDis_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" rowspan="2">
+             <widget class="QLabel" name="labelImage_1">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="wRecordDisplay_2" native="true">
+           <property name="styleSheet">
+            <string notr="true">background:#162e6c;color:gray</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_7" columnstretch="4,2,4">
+            <item row="0" column="2">
+             <widget class="QLabel" name="labelNameDis_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelName_2">
+              <property name="text">
+               <string>姓名：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="labelMask_2">
+              <property name="text">
+               <string>口罩：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="labelMaskDis_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" rowspan="2">
+             <widget class="QLabel" name="labelImage_2">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="wRecordDisplay_3" native="true">
+           <property name="styleSheet">
+            <string notr="true">background:#162e6c;color:gray</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_8" columnstretch="4,2,4">
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelName_3">
+              <property name="text">
+               <string>姓名：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="labelNameDis_3">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="labelMask_3">
+              <property name="text">
+               <string>口罩：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="labelMaskDis_3">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" rowspan="2">
+             <widget class="QLabel" name="labelImage_3">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="wRecordDisplay_4" native="true">
+           <property name="styleSheet">
+            <string notr="true">background:#162e6c;color:gray</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_9" columnstretch="4,2,4">
+            <item row="0" column="1">
+             <widget class="QLabel" name="labelName_4">
+              <property name="text">
+               <string>姓名：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="labelNameDis_4">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="labelMask_4">
+              <property name="text">
+               <string>口罩：</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="labelMaskDis_4">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="0" rowspan="2">
+             <widget class="QLabel" name="labelImage_4">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widgetVideoStream" native="true">
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="labelVideoStream">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background:black;color:gray</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::WinPanel</enum>
+           </property>
+           <property name="text">
+            <string>Video Stream</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QWidget</extends>
+   <header location="global">qchartview.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="FaceMaskDetection.qrc"/>
+ </resources>
+ <connections/>
+</ui>

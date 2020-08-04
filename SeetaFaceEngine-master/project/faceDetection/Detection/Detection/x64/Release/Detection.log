@@ -1,0 +1,8 @@
+﻿  facedetection_test.cpp
+..\..\faceDetection\faceDetection\src\test\facedetection_test.cpp(77): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+..\..\faceDetection\faceDetection\src\test\facedetection_test.cpp(79): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+  正在生成代码
+  All 61 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Detection.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Detection\x64\Release\Detection.exe
+  Detection.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Detection\x64\Release\Detection.pdb (Full PDB)

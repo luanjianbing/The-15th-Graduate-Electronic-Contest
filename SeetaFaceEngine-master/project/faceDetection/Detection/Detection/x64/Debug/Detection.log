@@ -1,0 +1,5 @@
+﻿  facedetection_test.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facedetection\facedetection\src\test\facedetection_test.cpp(77): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facedetection\facedetection\src\test\facedetection_test.cpp(79): warning C4244: “初始化”: 从“int64”转换到“long”，可能丢失数据
+  Detection.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Detection\x64\Debug\Detection.exe
+  Detection.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Detection\x64\Debug\Detection.pdb (Full PDB)

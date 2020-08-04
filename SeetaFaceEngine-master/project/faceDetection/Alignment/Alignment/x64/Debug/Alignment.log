@@ -1,0 +1,4 @@
+﻿  face_alignment_test.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\project\facedetection\facealignment\facealignment\src\test\face_alignment_test.cpp(112): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  Alignment.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Alignment\x64\Debug\Alignment.exe
+  Alignment.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Alignment\x64\Debug\Alignment.pdb (Full PDB)

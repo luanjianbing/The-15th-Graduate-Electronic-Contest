@@ -1,0 +1,33 @@
+﻿  lab_boosted_classifier.cpp
+  mlp.cpp
+  surf_mlp.cpp
+  face_detection.cpp
+src\face_detection.cpp(73): warning C4273: “seeta::FaceDetection::FaceDetection”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(44): note: 参见“{ctor}”的前一个定义
+src\face_detection.cpp(77): warning C4273: “seeta::FaceDetection::~FaceDetection”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(45): note: 参见“{dtor}”的前一个定义
+src\face_detection.cpp(83): warning C4273: “seeta::FaceDetection::Detect”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(54): note: 参见“Detect”的前一个定义
+src\face_detection.cpp(111): warning C4273: “seeta::FaceDetection::SetMinFaceSize”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(62): note: 参见“SetMinFaceSize”的前一个定义
+src\face_detection.cpp(118): warning C4273: “seeta::FaceDetection::SetMaxFaceSize”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(70): note: 参见“SetMaxFaceSize”的前一个定义
+src\face_detection.cpp(123): warning C4273: “seeta::FaceDetection::SetImagePyramidScaleFactor”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(79): note: 参见“SetImagePyramidScaleFactor”的前一个定义
+src\face_detection.cpp(128): warning C4273: “seeta::FaceDetection::SetWindowStep”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(87): note: 参见“SetWindowStep”的前一个定义
+src\face_detection.cpp(135): warning C4273: “seeta::FaceDetection::SetScoreThresh”: dll 链接不一致
+  C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\faceDetection\faceDetection\include\face_detection.h(96): note: 参见“SetScoreThresh”的前一个定义
+  lab_feature_map.cpp
+  surf_feature_map.cpp
+  fust.cpp
+  lab_boost_model_reader.cpp
+  surf_mlp_model_reader.cpp
+  image_pyramid.cpp
+  nms.cpp
+    正在创建库 C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Release\faceDetection.lib 和对象 C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Release\faceDetection.exp
+  正在生成代码
+  All 1772 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  faceDetection.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Release\faceDetection.dll
+  faceDetection.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Release\faceDetection.pdb (Full PDB)

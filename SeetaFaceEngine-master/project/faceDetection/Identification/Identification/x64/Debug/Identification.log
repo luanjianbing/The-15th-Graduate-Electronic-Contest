@@ -1,0 +1,10 @@
+﻿  test_face_recognizer.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(44): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(46): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(47): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(53): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(70): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(71): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(82): warning C4010: 单行注释包含行继续符
+  Identification.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Debug\Identification.exe
+  Identification.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\SeetaFaceEngine-master\project\faceDetection\Identification\x64\Debug\Identification.pdb (Full PDB)

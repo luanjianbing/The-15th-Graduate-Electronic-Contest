@@ -1,0 +1,65 @@
+﻿  face_identification.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(44): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(46): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(47): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(53): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(70): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(71): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\face_identification.h(82): warning C4010: 单行注释包含行继续符
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\face_identification.cpp(85): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\face_identification.cpp(86): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\face_identification.cpp(108): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\face_identification.cpp(109): warning C4244: “=”: 从“const double”转换到“float”，可能丢失数据
+  aligner.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\spatial_transform_net.h(59): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\aligner.cpp(58): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\aligner.cpp(58): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\aligner.cpp(106): warning C4838: 从“double”转换到“float”需要收缩转换
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\aligner.cpp(106): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\aligner.cpp(108): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\tools\aligner.cpp(109): warning C4244: “*=”: 从“double”转换到“float”，可能丢失数据
+  tform_maker_net.cpp
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\tform_maker_net.cpp(45): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\tform_maker_net.cpp(95): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\tform_maker_net.cpp(96): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\tform_maker_net.cpp(97): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\tform_maker_net.cpp(98): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\tform_maker_net.cpp(99): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  spatial_transform_net.cpp
+c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\spatial_transform_net.h(59): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(100): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(124): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(147): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(153): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(162): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(182): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(205): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(211): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(220): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  pad_net.cpp
+  net.cpp
+  max_pooling_net.cpp
+  math_functions.cpp
+  log.cpp
+c:\program files (x86)\windows kits\8.1\include\um\wingdi.h(114): warning C4005: “ERROR”: 宏重定义
+  c:\users\lx\desktop\佩戴口罩检测\seetafaceengine-master\faceidentification\include\log.h(60): note: 参见“ERROR”的前一个定义
+  inner_product_net.cpp
+  eltwise_net.cpp
+  conv_net.cpp
+  common_net.cpp
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\common_net.cpp(81): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\common_net.cpp(82): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\common_net.cpp(83): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\common_net.cpp(105): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  bn_net.cpp
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\bn_net.cpp(72): warning C4305: “=”: 从“double”到“float”截断
+  blob.cpp
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\blob.cpp(195): warning C4244: “=”: 从“const float”转换到“unsigned char”，可能丢失数据
+  bias_adder_net.cpp
+  正在生成代码...
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(234): warning C4715: “SpatialTransformNet::Sampling”: 不是所有的控件路径都返回值
+c:\users\lx\desktop\佩戴口罩检测\project\faceidentification\faceidentification\src\spatial_transform_net.cpp(176): warning C4715: “SpatialTransformNet::Sampling”: 不是所有的控件路径都返回值
+    正在创建库 C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Debug\faceIdentification.lib 和对象 C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Debug\faceIdentification.exp
+  faceIdentification.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Debug\faceIdentification.dll
+  faceIdentification.vcxproj -> C:\Users\lx\Desktop\佩戴口罩检测\project\FaceMaskDetection\x64\Debug\faceIdentification.pdb (Full PDB)

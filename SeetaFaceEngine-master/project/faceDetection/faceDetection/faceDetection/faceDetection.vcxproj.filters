@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\classifier">
+      <UniqueIdentifier>{6a954f6a-83a1-4cab-9f51-55cc3e5aa89a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\feat">
+      <UniqueIdentifier>{0e357daa-8115-473a-bbd6-4b3e1f8473b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\io">
+      <UniqueIdentifier>{e8006daf-578b-4576-8693-7d4fecd68755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\util">
+      <UniqueIdentifier>{ef01a041-46d2-46a4-82de-eef45e81e857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\classifier">
+      <UniqueIdentifier>{7e5e0239-8d69-46f1-ad84-78fd549759d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\feat">
+      <UniqueIdentifier>{699a3482-e97f-49e2-9a05-66da8b85d1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\io">
+      <UniqueIdentifier>{d43c27ba-9111-4204-8f9b-8c76f4677309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\util">
+      <UniqueIdentifier>{1635911c-87f9-4750-95b5-47cdb0854725}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\classifier\lab_boosted_classifier.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="include\classifier\mlp.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="include\classifier\surf_mlp.h">
+      <Filter>头文件\classifier</Filter>
+    </ClInclude>
+    <ClInclude Include="include\feat\lab_feature_map.h">
+      <Filter>头文件\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\feat\surf_feature_map.h">
+      <Filter>头文件\feat</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\lab_boost_model_reader.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\io\surf_mlp_model_reader.h">
+      <Filter>头文件\io</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\image_pyramid.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\math_func.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\util\nms.h">
+      <Filter>头文件\util</Filter>
+    </ClInclude>
+    <ClInclude Include="include\classifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\detector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\face_detection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\feature_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fust.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\model_reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\classifier\lab_boosted_classifier.cpp">
+      <Filter>源文件\classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classifier\mlp.cpp">
+      <Filter>源文件\classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classifier\surf_mlp.cpp">
+      <Filter>源文件\classifier</Filter>
+    </ClCompile>
+    <ClCompile Include="src\feat\lab_feature_map.cpp">
+      <Filter>源文件\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\feat\surf_feature_map.cpp">
+      <Filter>源文件\feat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\lab_boost_model_reader.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\surf_mlp_model_reader.cpp">
+      <Filter>源文件\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\image_pyramid.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\util\nms.cpp">
+      <Filter>源文件\util</Filter>
+    </ClCompile>
+    <ClCompile Include="src\face_detection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fust.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
